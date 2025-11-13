@@ -1,9 +1,10 @@
 import Image from "next/image"
-
+import styles from"../ui/ui.module.css"
+import { title } from "process"
 
 export const Title = ({children}) => {
     return (
-        <span>{children}</span>
+        <span className={stules.title}>{children}</span>
     )
 }
 
